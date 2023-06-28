@@ -68,6 +68,6 @@ if (isset($_SERVER['HTTP_X_FORWARDED_HOST'])) {
 define('WP_REDIS_HOST', 'redis');
 define('WP_REDIS_PORT', '6379');
 ```
-Необходимо в самом Wordpress установить и активировать планиг Redis Object Cache.
+Необходимо в самом Wordpress установить и активировать плагин Redis Object Cache.
 
 Готово! Вы успешно перенесли ваш существующий сайт на WordPress в Docker + Traefik.
